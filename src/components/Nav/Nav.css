@@ -1,0 +1,20 @@
+.Nav{
+    position: fixed;
+     display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+    height: 30px;
+    margin: 0;
+    background-color: #05a;
+    width: 50vw;
+    top: 30px;
+    border-radius: 50px;
+    right: 70px;
+    z-index: 2;
+}
+
+.Nav>button{
+    margin: 80px;
+    cursor: pointer;
+}
