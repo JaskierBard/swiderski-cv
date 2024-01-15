@@ -1,0 +1,33 @@
+.Place {
+  position: fixed;
+
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  height: 100vh;
+  margin: 0;
+  background-color: #05a;
+  width: 30vw;
+  height: 90vh;
+  border-radius: 50px;
+  top: 30px;
+  left: 70px;
+}
+
+.photo{
+  width: 30vw;
+  /* height: 30vh; */
+}
+
+.name {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.text{
+  background-color: rgba(0, 0, 0, 0.267);
+    /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}

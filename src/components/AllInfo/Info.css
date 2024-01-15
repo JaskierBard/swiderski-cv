@@ -1,0 +1,12 @@
+.about{
+    position: absolute;
+    background-color: rgba(0, 85, 170, 0.247);
+    width: 900px;
+    height: 300vh;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Opcjonalne: Jeśli chcesz dodać "..." na końcu, gdy tekst jest za długi */
+    white-space: wrap;
+    right: 100px;
+    top:60px
+}
+
