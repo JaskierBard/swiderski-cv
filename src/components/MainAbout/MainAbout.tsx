@@ -1,5 +1,6 @@
 import React from 'react';
 import './MainAbout.css';
+import { ChooseLanguage } from '../Language/ChooseLanguage';
 
 export const MainAbout = () => {
   return (
@@ -12,6 +13,7 @@ export const MainAbout = () => {
             <p>Gotowość do przeprowadzki</p>
             <p>Praca na pełen etat</p>
         </section>
+        <ChooseLanguage/>
     </div>
   );
 }

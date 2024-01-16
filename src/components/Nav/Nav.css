@@ -15,6 +15,13 @@
 }
 
 .Nav>button{
-    margin: 80px;
+    margin: 40px;
     cursor: pointer;
+    background-color: #05a;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    padding: 3px 10px;
+    
 }
+

@@ -31,7 +31,7 @@ export const AboutMe = () => {
         maxCompleted={100}
         className="wrapper"
         barContainerClassName="container"
-        // completedClassName="barCompleted"
+        bgColor="rgb(30, 80, 47)"
         labelClassName="label"
       />
       <Portfolio />
