@@ -1,22 +1,25 @@
-.language_icon {
-  height: 40px;
-  margin-top: 5px;
-  cursor: pointer;
-  margin-left: 5px;
-}
-.choose_language {
-  width: 200px;
+.language-switcher {
   display: flex;
-}
-.hidden {
-  transform: scaleX(0);
-  -webkit-transform: scaleX(0);
-  transform-origin: 0 50%;
-  -webkit-transform-origin: 0 50%;
-  transition: 250ms;
-}
-.choose_language:hover > .hidden {
-  transform: scaleX(1);
-  -webkit-transform: scaleX(1);
+  position: relative;
+  width: 60px;
+  height: 60px;
 }
 
+.language-icon {
+  width: 30px;
+  height: 30px;
+
+  cursor: pointer;
+
+  transition: all 0.5s ease;
+}
+
+.language-icon.active {
+  width: 40px;
+  height: 40px;
+
+  position: absolute;
+  left: 10px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 3);
+  border-radius: 50%;
+}
