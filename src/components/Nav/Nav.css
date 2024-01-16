@@ -6,11 +6,11 @@
 
     height: 30px;
     margin: 0;
-    background-color: #05a;
+    background-color: rgba(0, 85, 170, 0.582);
     width: 50vw;
     top: 30px;
-    border-radius: 50px;
-    right: 70px;
+    /* border-radius: 50px; */
+    right: 80px;
     z-index: 2;
 }
 

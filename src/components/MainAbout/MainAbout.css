@@ -1,22 +1,28 @@
 .Place {
   position: fixed;
-
+  
   /* display: flex;
   align-items: center;
   justify-content: center; */
   height: 100vh;
   margin: 0;
-  background-color: #05a;
-  width: 30vw;
+  background-color: rgba(0, 85, 170, 0.582);
+  width: 800px;
   height: 90vh;
-  border-radius: 50px;
+  border-radius: 10px;
   top: 30px;
   left: 70px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+
 }
 
 .photo{
-  width: 30vw;
+  width: 400px;
+  margin: 10px 10px;
   /* height: 30vh; */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+
 }
 
 .name {
@@ -26,9 +32,8 @@
 }
 
 .text{
+  color: rgb(206, 205, 205);
   background-color: rgba(0, 0, 0, 0.267);
-    /* display: flex;
-  align-items: center;
-  justify-content: center; */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
