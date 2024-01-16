@@ -1,1 +1,72 @@
-{"polish" : [{"skills" : ["Bardzo dobra znajomość komputera i urządzeń peryferyjnych"]}, {"aboutMe" : "Leniwy ale zdolny"}]}
+{
+  "polish": [
+    {
+        "personalDetails": {
+          "name": "Twoje Imię i Nazwisko",
+          "title": "Stanowisko, na które aplikujesz",
+          "email": "twój.email@example.com",
+          "phoneNumber": "+48 123 456 789",
+          "linkedIn": "linkedin.com/in/twojeprofil",
+          "github": "github.com/twojeprofil",
+          "website": "twojastrona.com"
+        },
+        "summary": "Krótki opis Twoich kluczowych kompetencji i doświadczenia zawodowego.",
+        "skills": [
+          "Język programowania 1",
+          "Język programowania 2",
+          "Narzędzie/Technologia 1",
+          "Narzędzie/Technologia 2"
+        ],
+        "professionalExperience": [
+          {
+            "companyName": "Nazwa Firmy 1",
+            "position": "Stanowisko",
+            "startDate": "mm/yyyy",
+            "endDate": "mm/yyyy lub 'Obecnie'",
+            "responsibilities": [
+              "Opis odpowiedzialności i projektów",
+              "Inne istotne doświadczenia"
+            ]
+          }
+        ],
+        "education": [
+          {
+            "institution": "Nazwa Uczelni",
+            "degree": "Stopień naukowy",
+            "fieldOfStudy": "Kierunek studiów",
+            "startDate": "mm/yyyy",
+            "endDate": "mm/yyyy"
+          }
+        ],
+        "certifications": [
+          {
+            "name": "Nazwa Certyfikatu",
+            "issuer": "Instytucja wydająca",
+            "dateOfIssue": "mm/yyyy"
+          }
+        ],
+        "projects": [
+          {
+            "name": "Nazwa Projektu",
+            "description": "Krótki opis projektu, w tym użyte technologie i twoja rola",
+            "url": "link-do-projektu.com"
+            }
+            ],
+            "languages": [
+            {
+            "language": "Angielski",
+            "proficiency": "B2"
+            },
+            {
+            "language": "Niemiecki",
+            "proficiency": "A2"
+            }
+            ],
+            "interests": [
+            "Zainteresowanie 1",
+            "Zainteresowanie 2"
+            ]
+            }
+      
+  ]
+}
