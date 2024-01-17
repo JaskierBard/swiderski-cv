@@ -1,3 +1,9 @@
+:root {
+  --dark-blue: #152031;
+  --beige: #fef6e0;
+  --orange: #fe754f;
+}
+
 body {
   min-height: 100vh;
   margin: 0;
