@@ -2,7 +2,7 @@
   /* position: fixed; */
 
   background: linear-gradient(to bottom right, #fef6e0, #ffe4d0);
-  width: 1200px;
+  width: 1000px;
   height: 800px;
   border-radius: 10px;
   box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5); /* Mocny cień z prawej strony i od dołu */
@@ -17,6 +17,8 @@
   border-radius: 10px;
   /* box-shadow: 0 0 20px rgba(0, 0, 0, 1.5); */
   border: 2px solid #152031;
+  user-select: none;
+
 }
 
 .name {
