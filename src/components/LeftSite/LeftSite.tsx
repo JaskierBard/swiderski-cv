@@ -1,11 +1,15 @@
 import React from "react";
 import "./LeftSite.css";
 import Slider from "../Slider/Slider";
+import dane from '../../data/aboutMe.json';
+
 
 export const LeftSite = () => {
+  const {personalDetails} = dane.polish[0]
+
   return (
     <div className="left">
-      <h1 className="name">Mateusz Świderski</h1>
+      <h1 className="name">{personalDetails['name']}</h1>
       <h2 className="x">Junior web developer</h2>
 
       <div className="container1">
