@@ -1,7 +1,10 @@
 .Place {
   background: linear-gradient(to bottom right, #fef6e0, #ffe4d0);
   width: 1000px;
-  height: 800px;
-  border-radius: 10px;
-  box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5); /* Mocny cień z prawej strony i od dołu */
+  height: 700px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  user-select: none;
+
 }
