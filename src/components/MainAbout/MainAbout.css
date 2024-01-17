@@ -1,33 +1,7 @@
 .Place {
-  /* position: fixed; */
-
   background: linear-gradient(to bottom right, #fef6e0, #ffe4d0);
   width: 1000px;
   height: 800px;
   border-radius: 10px;
   box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5); /* Mocny cień z prawej strony i od dołu */
-
-  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
-}
-
-.photo {
-  width: 300px;
-  margin: 40px 10px;
-  /* height: 30vh; */
-  border-radius: 10px;
-  /* box-shadow: 0 0 20px rgba(0, 0, 0, 1.5); */
-  border: 2px solid #152031;
-  user-select: none;
-
-}
-
-.name {
-  position: relative;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.text {
-  color: #152031;
-  background-color: rgba(0, 0, 0, 0.267);
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
